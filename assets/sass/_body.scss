@@ -1,0 +1,84 @@
+//main body section styling
+body{
+  background-color: $page-bg-color;
+  width: 100%;
+}
+
+//Main grid styling
+.row{
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0px;
+}
+
+// All grid columns styling - it has common position of image in each column
+.row [class*=col-]{
+  padding-left: 0px;
+  padding-right: 0px;
+  align-items: center;
+  background-clip: content-box;
+  height: 25em;
+  font-size: 25px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: -1em;
+  background-size: 15em 15em;
+}
+
+//In All columns the styling for header and paragraph
+.col-md-6 {
+  h4{
+  margin-top: 15em;
+  font-family: montserrat, sans-serif;
+  font-size: 24px;
+  font-stretch: expanded;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+p{
+  font-size: 18px;
+  font-style: italic;
+  font-family: Droid serif;
+  font-stretch: expanded;
+  color: white;
+  text-align: center;
+  align-items: center;
+  font-weight: normal;
+}
+}
+
+// each column background color and image
+#HardBoiled {
+      background-color: #EF5350;
+      background-image: url("../../assets/images/hard_boiled.449f78e4.svg");
+}
+#SoftBoiled{
+  background-color: #81C784;
+  background-image: url("../../assets/images/soft_boiled.1f753add.svg");
+}
+#SunnySideUp{
+  background-color: #B3E5FC;
+  background-image: url("../../assets/images/sunny_side_up.73579f5a.svg");
+}
+#Poached{
+  background-color: #D1C4E9;
+  background-image: url("../../assets/images/poached.84cd498d.svg");
+}
+#OverEasy{
+      background-color: #00ACC1;
+      background-image: url("../../assets/images/over_easy.f64e5c3e.svg");
+}
+#OverHard{
+  background-color: #FFCCBC;
+  background-image: url("../../assets/images/over_hard.c410a755.svg");
+}
+#Scrambled{
+  background-color: #FFE082;
+  background-image: url("../../assets/images/scrambled.1e775a7a.svg");
+}
+#Omelette{
+  background-color: #2196F3;
+
+  background-image: url("../../assets/images/omelette.ca8d80cf.svg");
+}

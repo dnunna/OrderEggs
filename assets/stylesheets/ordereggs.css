@@ -1,0 +1,142 @@
+.Order_Eggs h1 {
+  margin-top: 3em;
+  margin-left: 2em;
+  font-size: 28px;
+  font-stretch: expanded;
+  color: #f38481;
+  font-family: Montserrat,sans-serif; }
+.Order_Eggs .subheader {
+  margin-left: 3em;
+  margin-bottom: 3em;
+  font-family: Droid Serif;
+  font-size: 18px;
+  font-stretch: expanded;
+  font-style: italic;
+  color: #bbb; }
+
+body {
+  background-color: #FAFAFA;
+  width: 100%; }
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0px; }
+
+.row [class*=col-] {
+  padding-left: 0px;
+  padding-right: 0px;
+  align-items: center;
+  background-clip: content-box;
+  height: 25em;
+  font-size: 25px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: -1em;
+  background-size: 15em 15em; }
+
+.col-md-6 h4 {
+  margin-top: 15em;
+  font-family: montserrat, sans-serif;
+  font-size: 24px;
+  font-stretch: expanded;
+  color: white;
+  text-align: center;
+  align-items: center; }
+.col-md-6 p {
+  font-size: 18px;
+  font-style: italic;
+  font-family: Droid serif;
+  font-stretch: expanded;
+  color: white;
+  text-align: center;
+  align-items: center;
+  font-weight: normal; }
+
+#HardBoiled {
+  background-color: #EF5350;
+  background-image: url("../../assets/images/hard_boiled.449f78e4.svg"); }
+
+#SoftBoiled {
+  background-color: #81C784;
+  background-image: url("../../assets/images/soft_boiled.1f753add.svg"); }
+
+#SunnySideUp {
+  background-color: #B3E5FC;
+  background-image: url("../../assets/images/sunny_side_up.73579f5a.svg"); }
+
+#Poached {
+  background-color: #D1C4E9;
+  background-image: url("../../assets/images/poached.84cd498d.svg"); }
+
+#OverEasy {
+  background-color: #00ACC1;
+  background-image: url("../../assets/images/over_easy.f64e5c3e.svg"); }
+
+#OverHard {
+  background-color: #FFCCBC;
+  background-image: url("../../assets/images/over_hard.c410a755.svg"); }
+
+#Scrambled {
+  background-color: #FFE082;
+  background-image: url("../../assets/images/scrambled.1e775a7a.svg"); }
+
+#Omelette {
+  background-color: #2196F3;
+  background-image: url("../../assets/images/omelette.ca8d80cf.svg"); }
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  height: 150px;
+  padding-top: 2em;
+  padding-bottom: 2em; }
+
+#footertext {
+  margin-left: 2em;
+  color: white;
+  font-size: 16px;
+  font-stretch: expanded;
+  font-weight: lighter; }
+
+#footertext a {
+  text-decoration: none;
+  font-weight: bold;
+  font-stretch: expanded;
+  color: white; }
+
+.social-links {
+  margin-right: 2em;
+  display: flex;
+  justify-content: space-around;
+  justify-content: flex-end;
+  align-items: center; }
+
+.fa {
+  margin-left: 20px;
+  font-size: 2em;
+  border-radius: 50%; }
+
+.fa:hover {
+  opacity: 0.7; }
+
+.fa-linkedin {
+  background: white;
+  color: black;
+  border-radius: 1%; }
+
+.fa-dribbble {
+  background: blue;
+  color: white; }
+
+.fa-github {
+  background: white;
+  color: black; }
+
+*:focus {
+  outline: none; }
+
+/*# sourceMappingURL=ordereggs.css.map */

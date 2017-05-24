@@ -1,0 +1,14 @@
+$base_font: helvetica;
+$page-bg-color: #FAFAFA;
+$page-text-color: white;
+$font-stretch: expanded;
+$font-weight: lighter;
+$margin-left: 2em;
+
+@import "header";
+@import "body";
+@import "footer";
+
+*:focus {
+outline: none;
+}

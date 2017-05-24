@@ -1,0 +1,20 @@
+//order_Eggs header styling
+.Order_Eggs{
+  h1{
+    margin-top: 3em;
+    margin-left: $margin-left;
+    font-size: 28px;
+    font-stretch: expanded;
+    color: #f38481;
+    font-family: Montserrat,sans-serif;
+  }
+  .subheader{
+    margin-left: 3em;
+    margin-bottom: 3em;
+    font-family: Droid Serif;
+    font-size: 18px;
+    font-stretch: expanded;
+    font-style: italic;
+    color: #bbb;
+  }
+}
