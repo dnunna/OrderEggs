@@ -12,3 +12,9 @@ $margin-left: 2em;
 *:focus {
 outline: none;
 }
+
+@media only screen and (max-width: 600px) {
+.footer{
+width: 25%;
+}
+}
